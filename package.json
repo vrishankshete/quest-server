@@ -1,0 +1,33 @@
+{
+  "name": "quest-server",
+  "version": "1.0.0",
+  "description": "quest game server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrishankshete/quest-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "quiz",
+    "app",
+    "socketio"
+  ],
+  "author": "vrishank shete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrishankshete/quest-server/issues"
+  },
+  "homepage": "https://github.com/vrishankshete/quest-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "ip": "^1.1.5",
+    "log4js": "^0.6.38",
+    "socket.io": "^2.1.1",
+    "util": "^0.10.3"
+  }
+}
